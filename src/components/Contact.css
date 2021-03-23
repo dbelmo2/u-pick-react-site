@@ -1,0 +1,30 @@
+
+.root{
+    --primary: #fff
+}
+
+.contact__email-input {
+    padding: 8px 24px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    margin-bottom: 16px;
+    border: 1px solid #fff;
+    width: 400px;
+  }
+  .contact__message-input {
+    padding : 8px 24px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline : none;
+    border: none;
+    font-size: 14px;
+    margin-bottom: 5px;
+    border: 1px solid #fff;
+    height: 60px;
+    margin-bottom: 20px;
+    width: 400px;
+
+  }
