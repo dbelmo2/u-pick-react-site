@@ -35,7 +35,7 @@ export function Contact() {
               className='contact__message-input'
               name='message'
               type='message'
-              placeholder='Your messasge'
+              placeholder='Your message'
             />
             <Button buttonStyle='btn--outline' type='submit'>Submit</Button>
           </form>
