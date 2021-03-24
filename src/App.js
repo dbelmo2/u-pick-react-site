@@ -17,7 +17,7 @@ function App() {
     <Router>
       <Navbar/>
       <Switch>
-        <Route path='/' exact component={Home} />
+        <Route path='/u-pick-react-site' exact component={Home} />
         <Route path='/HowItWorks' component={HowItWorks}/>
         <Route path='/Contact' component={Contact}/>
         <Route path='/Download' component={Download}/>
