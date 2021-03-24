@@ -35,7 +35,7 @@ function Navbar() {
     <div className="navbar">
       <div className="navbar-container container">
         <Link to='/u-pick-react-site' className="navbar-logo" onClick={closeMobileMenu}>
-          <img alt='' src="/images/upick-logo.png" style={styles.bannerLogo}/>
+          <img alt='' src="images/upick-logo.png" style={styles.bannerLogo}/>
           UPICK
         </Link>
 
