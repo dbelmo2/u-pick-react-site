@@ -1,48 +1,4 @@
-export const homeObjOne = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Available Now',
-    headline: 'Make deciding where to eat fast and easy',
-    description: 'Tailored for indecisive couples, or any two people who can\'t decide on where to eat, UPick streamlines the process of selecting a place both parties can agree on.',
-    buttonLabel: 'Download Now',
-    imgStart: '',
-    img: './u-pick-react-site/images/upick_logo_square.png',
-    alt: 'Credit card',
-    hasDownloadButton: false,
-    hasContactForm: false,
-    hasButton: true
-};
-export const homeObjTwo = {
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'How it works',
-    headline: 'Get restaurant suggestions for any location',
-    description: 'UPick uses Google\'s Places API to search for restaurants near a chosen location. Simply set a custom location to search near, or use your current one, and UPick will search for and suggest restaurants near the chosen location',
-    buttonLabel: 'See Demo',
-    imgStart: 'start',
-    img: './u-pick-react-site/images/about_image.svg',
-    alt: 'Credit card',
-    hasDownloadButton: false,
-    hasContactForm: false,
-    hasButton: true
-};
-export const homeObjThree = {
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'Wanna get in touch?',
-    headline: 'Contact Us',
-    description: 'We\'re actively looking for ways to improve UPick and would love to hear what you have to say!',
-    buttonLabel: 'Download Now',
-    imgStart: '',
-    img: './u-pick-react-site/images/contact_image.svg',
-    alt: 'Credit card',
-    hasDownloadButton: false,
-    hasContactForm: true,
-    hasButton: false
-};
+
 export const homeObjFour = {
     lightBg: false,
     lightText: true,
@@ -56,5 +12,6 @@ export const homeObjFour = {
     alt: 'Credit card',
     hasDownloadButton: true,
     hasContactForm: false,
-    hasButton: false
+    hasButton: false,
+    inHomePage: false
 };

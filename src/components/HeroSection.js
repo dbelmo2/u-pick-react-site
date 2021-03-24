@@ -19,7 +19,8 @@ function HeroSection({
     imgStart,
     hasDownloadButton,
     hasContactForm,
-    hasButton
+    hasButton,
+    inHomePage
 
 }) {
     return (
@@ -43,11 +44,11 @@ function HeroSection({
                         <>
                         <div className="home__download-container">
                             <a href={APPSTORE_PATH}>
-                                <img alt="AppStore" src="./u-pick-react-site/images/appstore_badge.svg" className="home__download-img"/>
+                                <img alt="AppStore" src={inHomePage ? "images/appstore_badge.svg" : "./u-pick-react-site/images/appstore_badge.svg" } className="home__download-img"/>
                             </a>
                         
                             <a href={GOOGLEPLAY_PATH}>
-                                <img alt="Google Play" src="./u-pick-react-site/images/google_play_badge.png" className="home__download-img"/>
+                                <img alt="Google Play" src={inHomePage ? "images/google_play.png" : "./u-pick-react-site/images/google_play_badge.png"} className="home__download-img"/>
                             </a>
                         </div>
                         </>

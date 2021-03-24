@@ -11,7 +11,8 @@ export const homeObjOne = {
     alt: 'Credit card',
     hasDownloadButton: false,
     hasContactForm: false,
-    hasButton: true
+    hasButton: true,
+    inHomePage: true
 };
 export const homeObjTwo = {
     lightBg: true,
@@ -26,7 +27,8 @@ export const homeObjTwo = {
     alt: 'Credit card',
     hasDownloadButton: false,
     hasContactForm: false,
-    hasButton: false
+    hasButton: false,
+    inHomePage: true
 };
 export const homeObjThree = {
     lightBg: true,
@@ -41,7 +43,8 @@ export const homeObjThree = {
     alt: 'Credit card',
     hasDownloadButton: false,
     hasContactForm: true,
-    hasButton: false
+    hasButton: false,
+    inHomePage: true
 };
 export const homeObjFour = {
     lightBg: false,
@@ -56,5 +59,6 @@ export const homeObjFour = {
     alt: 'Credit card',
     hasDownloadButton: true,
     hasContactForm: false,
-    hasButton: false
+    hasButton: false,
+    inHomePage: true
 };
