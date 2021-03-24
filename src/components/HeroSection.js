@@ -43,11 +43,11 @@ function HeroSection({
                         <>
                         <div className="home__download-container">
                             <a href={APPSTORE_PATH}>
-                                <img alt="AppStore" src="../images/appstore_badge.svg" className="home__download-img"/>
+                                <img alt="AppStore" src="../_images/appstore_badge.svg" className="home__download-img"/>
                             </a>
                         
                             <a href={GOOGLEPLAY_PATH}>
-                                <img alt="Google Play" src="../images/google_play_badge.png" className="home__download-img"/>
+                                <img alt="Google Play" src="../_images/google_play_badge.png" className="home__download-img"/>
                             </a>
                         </div>
                         </>
