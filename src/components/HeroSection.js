@@ -48,7 +48,7 @@ function HeroSection({
                             </a>
                         
                             <a href={GOOGLEPLAY_PATH}>
-                                <img alt="Google Play" src={inHomePage ? "images/google_play.png" : "./u-pick-react-site/images/google_play_badge.png"} className="home__download-img"/>
+                                <img alt="Google Play" src={inHomePage ? "images/google_play_badge.png" : "./u-pick-react-site/images/google_play_badge.png"} className="home__download-img"/>
                             </a>
                         </div>
                         </>
