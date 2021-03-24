@@ -62,7 +62,7 @@ function Navbar() {
                 </Button>
               </Link>
             ) : (
-              <Link to='/sign-up' className='btn-link' onClick={closeMobileMenu}>
+              <Link to='/Download' className='btn-link' onClick={closeMobileMenu}>
                 <Button buttonSize='btn-mobile' buttonStyle='btn--outline'> DOWNLOAD
                 </Button>
               </Link>
