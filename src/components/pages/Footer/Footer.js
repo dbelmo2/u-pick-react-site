@@ -9,7 +9,9 @@ import { FaInstagram, FaTwitter } from 'react-icons/fa'
 
 
 
-function Footer() {
+function Footer({
+    inHomePage
+}) {
 
 
 
@@ -63,7 +65,7 @@ function Footer() {
 
                     <a href={LINKEDIN_PATH}>
                         <img onClick={handleLinkedInClick} onMouseEnter={handleMouseHover}
-                        onMouseLeave={handleMouseLeave} src='./u-pick-react-site/images/owo.jpg' alt='logo' className="footer__linkedin-pic"/>
+                        onMouseLeave={handleMouseLeave} src={inHomePage ? 'images/owo.jpg' : './u-pick-react-site/images/owo.jpg'} alt='logo' className="footer__linkedin-pic"/>
                     </a>
                     <div className={hover ? "footer__linkedin-text-wrapper-active" : "footer__linkedin-text-wrapper"}>
                         Hi! I built this website using React. Click here to visit my LinkedIn.
